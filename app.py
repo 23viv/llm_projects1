@@ -5,11 +5,9 @@ from langchain.prompts import PromptTemplate
 from langchain.output_parsers import ResponseSchema, StructuredOutputParser
 from langchain_core.messages import AIMessage
 from langchain_core.output_parsers import JsonOutputParser
-from dotenv import load_dotenv
-import os
 
-# ----------------- LOAD ENV -----------------
-load_dotenv()
+
+
 
 # ----------------- PAGE STYLE -----------------
 st.markdown("""
@@ -24,7 +22,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ----------------- GROQ CLIENT -----------------
-client = Groq(api_key=os.getenv("grok_api_key"))  # Your API key from .env
+client = Groq(api_key=st.secrets["GROQ_API_KEY")  # Your API key from .env
 
 # ----------------- RESPONSE SCHEMA -----------------
 schema = [ResponseSchema(name="response", description="The model's helpful response")]
