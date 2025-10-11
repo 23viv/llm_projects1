@@ -110,4 +110,6 @@ Powered by **Streamlit** and **Groq**.
 
 ---
 
-Would you like me to make it sound *more developer-portfolio style* (like something you’d put on GitHub to impress recruiters), or keep it this clean technical tone?
+try it 
+
+[ava](https://llmprojects1-b2amtcgdf94fsmtfmxsavv.streamlit.app/)
