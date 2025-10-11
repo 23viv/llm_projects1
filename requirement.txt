@@ -1,4 +1,5 @@
 streamlit
-langchain
 groq
+langchain
+langchain-core
 python-dotenv
