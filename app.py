@@ -22,7 +22,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ----------------- GROQ CLIENT -----------------
-client = Groq(api_key=st.secrets["GROQ_API_KEY")  # Your API key from .env
+client = Groq(api_key=st.secrets["GROQ_API_KEY"] # Your API key from .env
 
 # ----------------- RESPONSE SCHEMA -----------------
 schema = [ResponseSchema(name="response", description="The model's helpful response")]
