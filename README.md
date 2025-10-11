@@ -87,19 +87,12 @@ streamlit run app.py
 
    * Key: `GROQ_API_KEY`
    * Value: `your_actual_api_key`
-5. Deploy 🚀
+5. Deploy
 
----
 
-## 🧾 Example `.gitignore`
+## LIVE DEMO 
 
-```
-.env
-__pycache__/
-*.pyc
-venv/
-.streamlit/
-```
+[ava](https://llmprojects1-b2amtcgdf94fsmtfmxsavv.streamlit.app/)
 
 ---
 
@@ -110,6 +103,3 @@ Powered by **Streamlit** and **Groq**.
 
 ---
 
-try it 
-
-[ava](https://llmprojects1-b2amtcgdf94fsmtfmxsavv.streamlit.app/)
