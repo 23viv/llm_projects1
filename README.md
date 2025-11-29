@@ -90,11 +90,6 @@ streamlit run app.py
 5. Deploy
 
 
-## LIVE DEMO 
-
-[ava](https://llmprojects1-b2amtcgdf94fsmtfmxsavv.streamlit.app/)
-
----
 
 ## ❤️ Credits
 
